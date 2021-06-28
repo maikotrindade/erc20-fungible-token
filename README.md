@@ -1,0 +1,1 @@
+# maiko-erc20-fungible-token
