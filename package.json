@@ -1,0 +1,37 @@
+{
+    "name": "maikosoft-token",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "web3-eth-contract": "^1.4.0"
+    },
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "lite-server --baseDir ./web"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maikotrindade/maiko-erc20-fungible-token.git"
+    },
+    "keywords": [
+        "erc20",
+        "solidity",
+        "blockchain",
+        "ethereum",
+        "ethereum-development"
+    ],
+    "author": "Maiko Trindade",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/maikotrindade/maiko-erc20-fungible-token/issues"
+    },
+    "homepage": "https://github.com/maikotrindade/maiko-erc20-fungible-token#readme"
+}

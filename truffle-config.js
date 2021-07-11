@@ -11,7 +11,7 @@ module.exports = {
             port: 7545,
             network_id: '*',
         },
-        kovan: {
+        rinkeby: {
             provider: () =>
                 new HDWalletProvider({
                     mnemonic: {
@@ -21,10 +21,10 @@ module.exports = {
                     numberOfAddresses: 1,
                     shareNonce: true,
                 }),
-            network_id: '42',
+            network_id: '4',
             networkCheckTimeout: 10000000,
             // skipDryRun: - true if you don't want to test run the migration locally before the actual migration (default is false)
-            skipDryRun: true
+            // skipDryRun: true
         }
     },
     compilers: {
